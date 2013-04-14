@@ -1,46 +1,21 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: About Me
+tagline: Software Architect, Consultant 
+comments: false
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+<img src="/assets/images/maciek.jpg" style="float:left;margin:15px">
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+I'm an enthusiastic web application architect / developer, passionate for creating innovative tools and applications. I know one thing or two about web architectures and logic/data separation models, MV\*, separation of concerns and application scalability. 
 
-## Update Author Attributes
+I'm passionate for end user product development, love to find new and better ways to accomplish old things. I'm kind of friendly, and enjoy working with other people full of new ideas and initiative.  I can mock-up, architect and build any kind of web based application / API from the groud up, or guide a team of designers / developers through the construction process of a web app, in which case I still love to be *hands on* and collaborate as much as possible. 
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+I have been writting web applications for the last 12 years using Perl and PHP with Linux/BSD, but now I prefer Python if given the luxury of choice, and much newer technologies for front end development such as Backbone.js, Angular.js, Node.js, MongoDB, Redis.io, Google's BigTable, Google App Engine and Heroku. 
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+Have built applications for organizations including United Nations, Chevron, Coca-Cola, Colombian National Radio and Television, Transporte Masivo de Panamá, Colombian National Parks, Von Humboldt institute. Have a background in content management systems, e-commerce, customer loyalty, vehicle tracking systems and applications requiring to store big amounts of data.
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+I've been self employed for about 8 years. Have both, failed and succeeded in my own entrepreneurial adventures, and I won't stop doing it because I really love what I do.
 
 
