@@ -3,9 +3,13 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+layouts: _layouts
 auto: true
 pygments: true
 markdown: redcarpet
+redcarpet:
+  render_options:
+    - hard_wrap
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -84,16 +88,16 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
-    livefyre :
-      site_id : 123
-    intensedebate :
-      account : 123abc
-    facebook :
-      appid : 123
-      num_posts: 5
-      width: 580
-      colorscheme: light
+      short_name : maciekrb
+#    livefyre :
+#      site_id : 123
+#    intensedebate :
+#      account : 123abc
+#    facebook :
+#      appid : 123
+#      num_posts: 5
+#      width: 580
+#      colorscheme: light
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
@@ -102,11 +106,11 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-40114870-1'
     getclicky :
-      site_id : 
+      site_id : false 
     mixpanel :
-        token : '_MIXPANEL_TOKEN_'
+        token : false
 
   # Settings for sharing helper. 
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
