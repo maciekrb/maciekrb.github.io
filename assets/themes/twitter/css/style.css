@@ -41,6 +41,10 @@ code {
   border-radius: 2px;
 }
 
+p img {
+  margin-bottom:20px;
+}
+
 pre {
   padding: 8px 15px;
   /* background: #272822; */
